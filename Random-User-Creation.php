@@ -1,6 +1,6 @@
 <?php
 
-$website = 'https://demo.owasp-juice.shop/api/users'; // Replace with your website URL
+$website = 'localhost:8080'; // Replace with your website URL
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Get the number of accounts to create from the form input
